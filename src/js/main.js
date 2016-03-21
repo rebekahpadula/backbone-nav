@@ -1,6 +1,6 @@
 var router = new AppRouter();
 
-var app = _.extend({}, Backbone.Events)
+var app = _.extend({}, Backbone.Events);
 
 // Creating new instances of bar view, app view, contactView
 var barView = new BarView();
